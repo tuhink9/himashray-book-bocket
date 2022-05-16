@@ -1,6 +1,6 @@
 # Front End Code Github [Link](https://github.com/ProgrammingHeroWC4/warehouse-management-server-side-tuhink9)
 
-## Front End Firebase Live Site [Link](https://himashray-book-bucket.firebaseapp.com/)
+## Front End Firebase Live Site [Link](https://himashray-book-bocket.web.app)
 # Back End Code Github [Link](https://github.com/ProgrammingHeroWC4/warehouse-management-client-side-tuhink9)
 
 ## Back End Heroku Live Site [Link]()
