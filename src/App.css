@@ -1,0 +1,217 @@
+.body {
+  font-family: 'Mochiy Pop P One', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#app {
+  height: 100%
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img1 {
+  width: 100vw;
+  height: 75vh;
+  background-image: url('https://i.ibb.co/K7mfJpy/banner6.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img2 {
+  width: 100vw;
+  height: 75vh;
+  background-image: url('https://i.ibb.co/jf6FMMF/banner2.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img3 {
+  width: 100vw;
+  height: 75vh;
+  background-image: url('https://i.ibb.co/dGX6bxT/banner1.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img4 {
+  width: 100vw;
+  height: 75vh;
+  background-image: url('https://i.ibb.co/Df76Fg2/banner5.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img5 {
+  width: 100vw;
+  height: 75vh;
+  background-image: url('https://i.ibb.co/XtXvC8D/banner4.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login-img {
+  width: 100%;
+  height: 80vh;
+  background-image: url('https://img.freepik.com/free-photo/turquoise-matt-suede-fabric-background-velvet-texture_113767-1486.jpg?w=900');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sign-btn {
+  background-color: #64B9B4;
+}
+
+.border-login {
+  border: 2px solid white;
+}
+
+.border-login:hover {
+  background-color: white;
+  color: #282c34;
+  border: 0;
+}
+
+.danimImg3 {
+  width: 30vw;
+  height: 50%;
+  background-image: url('https://cdn.shopify.com/s/files/1/0256/4594/0810/files/bn-2_676a7adf-ea7b-4fa1-8848-8517abdc2793_540x.jpg?v=1616643656');
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  object-fit: cover;
+}
+
+.team-img {
+  width: 97vw;
+  height: 75vh;
+  background-image: url('https://i.ibb.co/ZYbTd5b/imgimgimg.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  /* object-fit: cover; */
+}
+
+
+.team-img::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.5;
+}
+
+.body {
+  overflow-x: hidden !important;
+}
+
+.border-btn {
+  border-bottom: 2px solid white;
+}
+
+.border-header {
+  border-bottom: 2px solid #64B9B4;
+}
+
+/* google font */
+
+.font-custom {
+  font-family: 'Poppins', sans-serif;
+}
